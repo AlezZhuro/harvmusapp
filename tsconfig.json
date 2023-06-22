@@ -3,7 +3,9 @@
   "compilerOptions": {
     "baseUrl": ".",
     "paths": {
-      "@/":["src/*"]
+      "@screens/*":["src/screens/index"],
+      "@shared/*":["src/shared/*"]
     }
-  }
+  },
+  "include": ["src/**/*"]
 }
