@@ -4,7 +4,10 @@
     "baseUrl": ".",
     "paths": {
       "@screens/*":["src/screens/index"],
-      "@shared/*":["src/shared/*"]
+      "@shared/*":["src/shared/*"],
+      "@widgets/*":["src/widgets/index"],
+      "@entities/*":["src/entities/index"],
+      "@app/*":["src/*"]
     }
   },
   "include": ["src/**/*"]

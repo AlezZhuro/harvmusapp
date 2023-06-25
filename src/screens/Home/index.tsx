@@ -1,18 +1,17 @@
 import React from 'react';
-import {Text, View} from 'native-base';
+import {View} from 'native-base';
 import {ScreenProps, Screens} from '@shared/routes';
 import tw from 'twrnc';
+import {GalleryList} from '@widgets/';
 
 interface HomeScreenProps {}
 
-const HomeScreen: React.FC<
+export const HomeScreen: React.FC<
   HomeScreenProps & ScreenProps<Screens.HOME>
 > = () => {
   return (
     <View style={tw`flex-1`}>
-      <Text>HomeScreen</Text>
+      <GalleryList />
     </View>
   );
 };
-
-export default HomeScreen;
